@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=Didact+Gothic&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:wght@400;700&display=swap');
+
+img {
+    padding: 25px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+body {
+    font-family: "Anaheim", serif;
+    color: #311B07;
+    background-color: #FBF6F2;
+}
+header, footer {
+    background-color: #EBCB95;
+}
+h1 {
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 15px;
+}
+
+h2 {
+    font-family: "Didact Gothic", serif;
+    font-size: 20px;
+    color: #663609;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+#note {
+    font-size: 125%;
+    font-weight: bold;
+    margin: 30px;
+}
+ul {
+    list-style-type: circle;
+}
+
+.recipe {
+    border: 1px solid #311B07;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 7px;
+    width: 1000px;
+}
+
+.recipe > ul > li {
+    font-size: 18px;
+}
+
+.recipe > ol > li {
+    font-size: 18px;
+}
+
+a {
+    color: rgb(7, 4, 1);
+    font-style: italic;
+  }
+  
+  a:hover {
+    transition: background-color 0.75s;
+    background-color: #EBCB95;
+  }

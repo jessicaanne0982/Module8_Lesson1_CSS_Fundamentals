@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&family=Didact+Gothic&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: "Roboto Flex", sans-serif;
+    font-size: 16px;
+    color: darkslategray;
+    margin: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: linen;
+}
+
+img {
+    width: 150px;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+button {
+    border: none;
+    transition: transform 1s;
+    background-color: inherit;
+    margin-left: 300px;
+}
+
+p {
+    font-size: 18px;
+    border: 1px solid darkslategray;
+    border-radius: 7px;
+    padding: 20px;
+    width: 700px;
+    display: block;
+}

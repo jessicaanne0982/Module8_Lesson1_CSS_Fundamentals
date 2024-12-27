@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Submit Your Recipe</title>
+        <link rel="stylesheet" href="submission_styles.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="cupcake.png" alt="Image of vanilla cupcake">
+            <h1>Submit Your Recipe Here!</h1>
+            <p>Have a favorite recipe you'd like to share?  Fill out the form below to submit it!</p>
+        </header> 
+        
+        <form action="submit" method="post">
+            <fieldset>
+                <legend>Share your recipe</legend>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+
+                <div>
+                    <label for="recipe_name">Recipe Name:</label>
+                    <input type="text" id="recipe_name" name="recipe_name" placeholder="Enter the recipe name">
+                </div>
+
+                <div>
+                    <label>Recipe Category:</label>
+                    <input type="radio" id="breakfast" name="recipe_category" value="breakfast">
+                    <label for="breakfast">Breakfast</label>
+                    <input type="radio" id="lunch" name="recipe_category" value="lunch">
+                    <label for="lunch">Lunch</label>
+                    <input type="radio" id="dinner" name="recipe_category" value="dinner">
+                    <label for="dinner">Dinner</label>
+                    <input type="radio" id="appetizer" name="recipe_category" value="appetizer">
+                    <label for="appetizer">Appetizer</label>
+                    <input type="radio" id="bread" name="recipe_category" value="bread">
+                    <label for="bread">Bread</label>
+                    <input type="radio" id="dessert" name="recipe_category" value="dessert">
+                    <label for="dessert">Dessert</label>
+                </div>
+
+                <div>
+                    <label for="ingredients">Ingredients:</label>
+                    <textarea id="ingredients" name="ingredients" rows="15" cols=100 placeholder="Enter the ingredients"></textarea>
+                </div>
+
+                <div>
+                    <label for="steps">Steps:</label>
+                    <textarea id="steps" name="steps" rows="15" cols="100" placeholder="Enter the steps"></textarea>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit Your Recipe</button>
+        </form>  
+    </body>
+</html>
